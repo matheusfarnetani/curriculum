@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: #eee;
+    font-family: 'Lato', sans-serif;
+    color: #222;
+    line-height: 26px;
+    padding-bottom: 50px;
+    max-width: 900px;
+    margin: 0px auto 0px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    column-span: all;
+}
+
+hr {
+    border-top: 2px solid #d3d3d3;
+}
+
+a {
+    font-weight: 300;
+}
+
+.header {
+    margin-bottom: 30px;
+
+    .language {
+        position:absolute;
+        top:0;
+        left:40;
+    }
+
+    .name {
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+
+        .first-name {
+            font-weight: 700;
+        }
+
+        .last-name {
+            font-weight: 300;
+        }
+    }
+
+    .short-bio {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .bio {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .contact {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .objective {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+.work-experience {
+    margin: 20px 0 20px 0;
+
+    .work {
+        margin: 0 0 20px 0;
+        font-size: 18px;
+        font-weight: 300;
+
+        .work-title {
+            margin: 5px 0 5px 0;
+
+            .ocupation {
+                font-weight: 400;
+            }
+
+            .name {
+                font-weight: 400;
+            }
+
+            .time {
+                font-weight: 400;
+            }
+        }
+
+        .about {
+            font-size: 16px;
+        }
+    }
+}
+.educational {
+    margin: 20px 0 20px 0;
+    column-count: 2;
+    column-gap: 20px;
+
+    .course {
+        margin: 20px 0 20px 20;
+        font-size: 16px;
+
+        .title {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .time {
+            font-weight: 400;
+        }
+
+        .institute {
+            font-weight: 400;
+        }
+
+        .course-about {
+            font-weight: 300;
+        }
+    }
+}
+
+.languages {
+    margin: 20px 0 20px 0;
+    font-size: 16px;
+    column-count: 2;
+    column-gap: 20px;
+
+    .name {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .level {
+        font-weight: 300;
+    }
+}
+
+.skills {
+    margin: 20px 0 20px 0;
+
+    .programing {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        column-count: 2;
+        column-gap: 20px;
+
+        .title {
+            column-span: all;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .name {
+            font-weight: 400;
+        }
+    }
+
+    .personal {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        column-count: 2;
+        column-gap: 20px;
+
+        .title {
+            column-span: all;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .name {
+            font-weight: 400;
+        }
+    }
+
+    .softwares {
+        font-size: 16px;
+        font-weight: 300;
+        column-count: 2;
+        column-gap: 20px;
+
+        .title {
+            column-span: all;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .name {
+            font-weight: 400;
+        }
+    }
+
+}
+
+.separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+}
